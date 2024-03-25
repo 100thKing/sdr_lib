@@ -46,7 +46,7 @@ def modulate_qpsk(bit_array):
     return complex_array 
  
 
-def add_pylots(arr, pos, val):
+def Add_Pylots(arr, pos, val):
     arr = np.insert(arr, 0, val)
     for i in range (0,len(arr),pos):
         arr = np.insert(arr, i, val)
