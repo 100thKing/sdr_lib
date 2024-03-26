@@ -6,7 +6,7 @@
 - [bin_to_complex](#bin_to_complex)
 - [modulate_qpsk](#modulate_qpsk)
 - [repeat_elements](#repeat_elements)
-- [Add_Barker](#Add_Barker)
+- [add_barker](#add_barker)
 - [higher_signal](#higher_signal)
 - [signal_to_transmite](#signal_to_transmite)
 - [configure_sdr_tx](#configure_sdr_tx)
@@ -53,7 +53,7 @@
 - **Входные переменные**: `arr` - входной массив NumPy, элементы которого нужно повторить.
 - **Выходные переменные**: Функция возвращает новый массив NumPy, в котором каждый элемент входного массива `arr` повторяется 10 раз.
 
-<a name="Add_Barker"><h2>Add_Barker</h2></a>
+<a name="add_barker"><h2>add_barker</h2></a>
 
 - **Входные переменные**: `arr` - входной массив NumPy, к которому нужно добавить код Баркера.
 - **Выходные переменные**: Функция возвращает новый массив NumPy, в котором к входному массиву `arr` добавлен код Баркера длиной 7 элементов.
