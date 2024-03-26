@@ -66,7 +66,7 @@ def higher_signal(signal):
 
 
 def signal_to_transmite(signal):
-    signal_tx = Add_Barker(signal)
+    signal_tx = add_barker(signal)
     signal_tx = repeat_elements(signal_tx)
     signal_tx =  higher_signal(signal_tx)
     return signal_tx
