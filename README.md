@@ -18,6 +18,7 @@
 - Создать функции для приемника sdr rx
 - Изменить чтобы на выход шел np.array следующие функции: generate_binary_arr, string_to_bin 
 - Определить отличия функций bin_to_complex и modulate_qpsk
+- Настроить configure_sdr_tx\rx
 
 
 <a name="generate_binary_arr"><h2>generate_binary_arr</h2></a>
